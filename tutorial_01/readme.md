@@ -1,11 +1,11 @@
 # Setup
 
-Assuming you are running ubuntu and have python 3.5 installed, just run `install.sh` to install all dependencies.
+Assuming you are running ubuntu, run `install.sh` to install conda and create a python3.5 environment with all dependencies.
 
 # Execution
 Activate the conda environment with all dependencies installed with `conda activate py35`.
 
-Launch meshcat (which handles visualization) by running `python \`which meshcat-server\`` (running explicitly with python to avoid a [known issue](https://github.com/rdeits/meshcat-python/issues/30)).
+Launch meshcat (which handles visualization) by running ``python `which meshcat-server` `` (running explicitly with python to avoid a [known issue](https://github.com/rdeits/meshcat-python/issues/30)).
 
 This will start the meshcat server, you will need to open a new terminal and again `conda activate py35`.
 
